@@ -7,16 +7,12 @@ header {
 
 
 .header-left {
-    background-color: aqua;
     height: 20px;
     width: 40%;
     float: left;
     padding: 10px 20px;
 }
 
-.left-link-container, .right-link-container {
-    background-color: chartreuse;
-}
 
 .right-link-container{
     float: right;
@@ -29,7 +25,23 @@ header {
     position: relative;
     top: 3px;
     left: 5px;
+}
 
+
+
+.sign-in {
+    display:inline;
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: #4387fd;
+    font: normal bold 13px/1 arial;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+}
+
+.right-link-container .sign-in a{
+    color: white;
+    text-decoration: none;
 }
 
 .left-link-container p, .right-link-container p {
@@ -38,8 +50,9 @@ header {
     margin: 0px 8px;
 }
 
-.left-link-container a:link, .right-link-container a:link {
+.left-link-container a, .right-link-container a {
     text-decoration: none;
+    color: black;
 }
 
 .left-link-container p a:hover, .right-link-container p a:hover {
@@ -47,7 +60,6 @@ header {
 }
 
 .header-right {
-    background-color: blanchedalmond;
     height: 20px;
     width: 40%;
     float: right;
