@@ -1,5 +1,64 @@
-div {
+header {
     display: block;
+    width: 100%; 
+    margin-top: 25px;
+    height: 40px;
+}
+
+
+.header-left {
+    background-color: aqua;
+    height: 20px;
+    width: 40%;
+    float: left;
+    padding: 10px 20px;
+}
+
+.left-link-container, .right-link-container {
+    background-color: chartreuse;
+}
+
+.right-link-container{
+    float: right;
+}
+
+.right-link-container img{
+    max-height: 17px;
+    max-width: 17px;
+    display: inline;
+    position: relative;
+    top: 3px;
+    left: 5px;
+
+}
+
+.left-link-container p, .right-link-container p {
+    display: inline;
+    font: normal normal 13px Arial;
+    margin: 0px 8px;
+}
+
+.left-link-container a:link, .right-link-container a:link {
+    text-decoration: none;
+}
+
+.left-link-container p a:hover, .right-link-container p a:hover {
+    text-decoration: underline;
+}
+
+.header-right {
+    background-color: blanchedalmond;
+    height: 20px;
+    width: 40%;
+    float: right;
+    padding: 10px 20px;
+
+}
+
+
+
+
+div {
     margin: auto;
 }
 
